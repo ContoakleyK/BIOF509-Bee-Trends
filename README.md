@@ -19,7 +19,7 @@ The features are not categorical, since that is one of the major hurdles I could
 
 After seeing that no particular feature has a predictive influence on the random data (although classifiers scored above 50%), I decided to also merge a dataset with some bias towards what I believe can influence a *stronger* hive (less pest detection, more days of sunshine, lack of swarm or generation of new queen cells, and survival) and conversely, a *weaker* hive (with values essentially inverted).  The intent is to supply more skewed data to see the effect on training models.
 
-# My project has since become to use Unsupervised learning to train the !randomized fabricated data!, looking for trends that will predict survival of honeybee colonies (hives) given the few features I generated.
+# My project has since become to use Unsupervised learning to train the randomized **fabricated data**, looking for trends that will predict survival of honeybee colonies (hives) given the few features I generated.
 
 I have made two randomized datasets to use for prediction.  The training data set to develop the model has 793 rows.  I will ultimately test the other Naive dataset (1050 rows) once I a model has been selected.
 
